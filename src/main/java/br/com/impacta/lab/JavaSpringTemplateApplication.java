@@ -6,8 +6,6 @@ public class JavaSpringTemplateApplication {
 
 	public static void main(String[] args) {
 		/*
-		 * Transforme a tabela produto em uma classe separadas
-		 * no pacote br.com.impacta.models
 		 * 
 		 *  
 		 *  Tabela de produto
@@ -20,20 +18,7 @@ public class JavaSpringTemplateApplication {
 		 * 	5				Luvas						19.50
 		 * 
 		 * -----------------------------------------------------------------
-		 * 
-		 * Em seguida crie um método na classe Produto onde o mesmo tenho o nome de montarResumo
-		 * Exemplo de um método:
-		 * public String falar(String palavra) {
-		 * 	System.out.println(palavra);
-		 * }
-		 * 
-		 * receba como parametro um Produto e devolva uma String
-		 * 
-		 * O retorno deve ser no seguinte formato
-		 * 
-		 * "codigo: <produto.codigo>, descricao: <produto.descricao>, valor: <produto.valor>"
-		 * 
-		 * 
+		 *
 		 */
 		
 		Produto produto = new Produto();
